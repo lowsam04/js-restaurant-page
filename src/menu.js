@@ -1,3 +1,6 @@
+import greenBean from './assets/greenbean.jpg';
+import macnCheeseImage from './assets/macncheese.jpg';
+
 export function menu() {
 
     const contentDiv = document.querySelector("#content");
@@ -14,7 +17,7 @@ export function menu() {
     // Dom for greenBeanCass
     const greenBeanCass = document.createElement("img");
     greenBeanCass.classList.add("image");
-    greenBeanCass.src = "../src/assets/greenbean.jpg";
+    greenBeanCass.src = greenBean;
     greenBeanCass.alt = "Image Top";
     contentDiv.appendChild(greenBeanCass);
 
@@ -27,7 +30,7 @@ export function menu() {
     // Dom for macnCheese
     const macnCheese = document.createElement("img");
     macnCheese.classList.add("image");
-    macnCheese.src = "../src/assets/macncheese.jpg";
+    macnCheese.src = macnCheeseImage;
     macnCheese.alt = "Image of Mac and Cheese";
     contentDiv.appendChild(macnCheese);
 
